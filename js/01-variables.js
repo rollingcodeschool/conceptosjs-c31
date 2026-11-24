@@ -23,3 +23,20 @@ const url = "https://universe.rollingcodeschool.com/";
 console.log("URL: " , url);
 
 // url = 'hola mundo 2' ❌ no se puede cambiar el valor de una variableconstante
+
+// tipos de datos: primitivos
+let encendido = true
+let vacio = null
+console.log( typeof(apellido) ) //string
+console.log( typeof(anio) ) //number
+console.log( typeof(1.5) ) //number
+console.log( typeof(encendido) ) //boolean
+console.log( typeof(nombre) ) //undefined
+console.log( typeof(vacio) ) //null 'no es object'
+
+// tipos de datos: Por referencia
+const pelicula = {}
+console.log( typeof(pelicula) ) // arrays
+
+//ventanas emergentes
+alert('Prueba de alert')
