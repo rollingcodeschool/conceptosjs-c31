@@ -15,7 +15,10 @@ const acompanadoPorAdulto = prompt('¿Esta acompañado por un adulto? - (si o no
 // && AND (y)
 // || OR (o)
 
-if( (edad >= 12 && altura >= 140) || acompanadoPorAdulto=== 'si'){
+console.log(acompanadoPorAdulto.toLowerCase())
+console.log(acompanadoPorAdulto.toUpperCase())
+
+if( (edad >= 12 && altura >= 140) || acompanadoPorAdulto.toLowerCase()=== 'si'){
     console.log('✅ puedes subir')
 }else{
      console.log('❌ No puedes subir')
